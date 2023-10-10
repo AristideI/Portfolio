@@ -1,0 +1,19 @@
+/* Style the scrollbar for the entire page */
+::-webkit-scrollbar {
+  width: 10px;
+  right: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #000; /* Black background */
+  border-right: 5px solid transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #fff; /* White thumb */
+  border-radius: 5px; /* Rounded edges */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #eee; /* Slightly darker on hover */
+}

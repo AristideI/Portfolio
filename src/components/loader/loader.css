@@ -1,0 +1,47 @@
+.loaderFont {
+  font-family: "Bebas Neue", sans-serif;
+  clip-path: polygon(0 2%, 100% 0, 100% 100%, 0% 100%);
+}
+
+.char {
+  transform: translateY(115px);
+  transition: transform 0.5s;
+}
+
+.bluryRed {
+  width: 14rem;
+  height: 14rem;
+  background-color: #f56565; /* red-500 in Tailwind */
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  filter: blur(20rem);
+  animation: moveRed 5s forwards;
+}
+
+.bluryBlue {
+  width: 14rem;
+  height: 14rem;
+  background-color: #4299e1; /* blue-500 in Tailwind */
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  filter: blur(20rem);
+  animation: moveBlue 5s forwards;
+}
+
+@keyframes moveRed {
+  100% {
+    right: calc(100% - 52px);
+    top: 0;
+  }
+}
+
+@keyframes moveBlue {
+  100% {
+    left: 50%;
+    top: 100%;
+  }
+}
