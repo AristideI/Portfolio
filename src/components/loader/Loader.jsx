@@ -12,6 +12,11 @@ export default function Loader() {
       delay: 0.5,
       duration: 0.1,
     });
+    gsap.to(".fuller", {
+      width: 230,
+      delay: 0.5,
+      duration: 2,
+    });
   }, []);
 
   return (
@@ -19,6 +24,7 @@ export default function Loader() {
       <p className="text-white text-4xl loaderFont" id="my-text">
         Not just a talent ...
       </p>
+      <div className="w-0 mt-4 h-[1px] bg-white fuller"></div>
       <div className="bluryRed"></div>
       <div className="bluryBlue"></div>
     </section>
