@@ -136,7 +136,6 @@ export default function Hero() {
           ref={heroImage}
         />
       </section>
-      <div className="h-screen w-full"> The saint</div>
     </>
   );
 }

@@ -5,6 +5,7 @@ import "./App.css";
 import Hero from "./components/Hero/Hero";
 import About from "./components/About/About";
 import Carouser from "./components/carouser/Carouser";
+import Project from "./components/project/Project";
 function App() {
   // let [loader, setLoader] = useState(true);
   // useEffect(() => {
@@ -26,6 +27,7 @@ function App() {
       <Hero />
       <Carouser />
       <About />
+      <Project />
     </section>
   );
 }

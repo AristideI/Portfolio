@@ -1,0 +1,17 @@
+.inner {
+  transform: scale(4rem);
+  animation: spinner 29000s infinite linear;
+}
+.inner2 {
+  transform: scale(4rem);
+  animation: spinner 29000s infinite linear reverse;
+}
+
+@keyframes spinner {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(2424252deg);
+  }
+}

@@ -1,0 +1,37 @@
+.carousel {
+  overflow: hidden;
+  margin: 2rem 0;
+}
+
+.carousel-container {
+  display: flex;
+  animation: 25s slide infinite linear;
+}
+
+.carousel-slide {
+  display: flex;
+  gap: 2rem;
+}
+.carousel1 {
+  overflow: hidden;
+  margin: 2rem 0;
+}
+
+.carousel-container1 {
+  display: flex;
+  animation: 25s slide infinite linear reverse;
+}
+
+.carousel-slide1 {
+  display: flex;
+  gap: 2rem;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
