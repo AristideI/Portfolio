@@ -1,9 +1,8 @@
 .inner {
-  transform: scale(4rem);
+  scale: 3;
   animation: spinner 29000s infinite linear;
 }
 .inner2 {
-  transform: scale(4rem);
   animation: spinner 29000s infinite linear reverse;
 }
 
